@@ -39,6 +39,12 @@ p{
   text-align: justify;
 }
 
+span {
+  color: var(--primary-color);
+  font-style: italic;
+  font-size: 12px;
+}
+
 ul, li {
   list-style: none;
   padding: 0;
@@ -168,6 +174,7 @@ nav {
     background-color: var(--secondary-color);
     position: fixed;
     left: 0;
+    top: 60;
     height: calc(100% - 50px);
     font-size: 25px;
     align-items: center;
@@ -267,6 +274,7 @@ footer a {
   height: 400px;
   border-radius: 20px;
   padding: 20px;
+  display: fixed;
   margin: auto auto 10px auto;
   align-items: center;
   text-align: center;
@@ -437,5 +445,3 @@ img {
   margin-left: 35px;
   list-style-type: square;
 }
-
-
