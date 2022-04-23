@@ -160,7 +160,7 @@ nav {
   
 }
 
-@media all and (max-width: 900px)  {
+@media only screen and (min-width: 768px) {
   header {
     height: 60px;
   }
@@ -215,7 +215,7 @@ nav {
   padding-left: 15px;
 }
 
-@media all and (max-width: 900px)  {
+@media only screen and (min-width: 768px) {
   .container {
     max-width: 960px;
   }
@@ -248,7 +248,7 @@ footer a {
   color: var(--body-color);
 }
 
-@media all and (max-width: 900px) {
+@media only screen and (min-width: 768px) {
   footer {
     text-align: center;
     margin-top: 20px;
@@ -341,7 +341,7 @@ width: 100%;
   margin-right: 0;
 }
 
-@media all and (max-width: 900px)  {
+@media only screen and (min-width: 768px) {
   .box {
     width: 100%;
     font-size: 0.9rem;
