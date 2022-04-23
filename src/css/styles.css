@@ -160,7 +160,7 @@ nav {
   
 }
 
-@media (max-width: 768px) {
+@media all and (max-width: 768px)  {
   header {
     height: 60px;
   }
@@ -215,7 +215,7 @@ nav {
   padding-left: 15px;
 }
 
-@media (min-width: 992px) {
+@media all and (max-width: 768px)  {
   .container {
     max-width: 960px;
   }
@@ -248,7 +248,7 @@ footer a {
   color: var(--body-color);
 }
 
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
   footer {
     text-align: center;
     margin-top: 20px;
@@ -313,7 +313,7 @@ footer a {
 
 /*CATEGORY(BOOKS)*/
 .box{
-	width: 100%;
+width: 100%;
   color: var(--body-color);
   border-radius: 20px;
   background-color: var(--secondary-color);
@@ -326,7 +326,7 @@ footer a {
 }
 
 .grid-flex{
-	display: flex; 
+  display: flex; 
   max-width: 550px;
 }
 
@@ -341,7 +341,7 @@ footer a {
   margin-right: 0;
 }
 
-@media (max-width: 768px) {
+@media all and (max-width: 768px)  {
   .box {
     width: 100%;
     font-size: 0.9rem;
